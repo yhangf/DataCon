@@ -15,7 +15,7 @@
 
 ### DataCon2019综合积分榜排名（部分）
 
-![](https://github.com/yhangf/DataCon/blob/master/DataCon2019/useful/rank.png)
+![](https://yhangf.gitee.io/images/rank.png)
 
 ### 源码
 
@@ -43,7 +43,7 @@
 
 ### DataCon2020综合积分榜排名（部分）
 
-![](https://github.com/yhangf/DataCon/blob/master/DataCon2020/PPT/picture/2020rank.png)
+![](https://yhangf.gitee.io/images/2020rank.png)
 
 ### 源码
 
