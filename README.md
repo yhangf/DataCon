@@ -15,7 +15,7 @@
 
 ### DataCon2019综合积分榜排名（部分）
 
-![](https://github.com/yhangf/DataCon/DataCon2019/blob/master/useful/rank.png)
+![](https://github.com/yhangf/DataCon/blob/master/DataCon2019/useful/rank.png)
 
 ### 源码
 
@@ -47,3 +47,10 @@
 
 ### 源码
 
+- [[get_id.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/get_id.py)]: 获取测试集的文件名
+- [[get_raw_test_data.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/get_raw_test_data.py)]: 获取测试集的原始字符串
+- [[get_raw_train_data.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/get_raw_train_data.py)]: 获取训练集的原始字符串
+- [[test_train_model.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/test_train_model.py)]: 测试训练的模型
+- [[yield_end_result.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/yield_end_result.py)]: 生成最终提交的结果
+- [[yield_features.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/yield_features.py)]: 由原始字符串生成特征矩阵
+- [[yield_train_model.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/yield_train_model.py)]: 生成训练模型
