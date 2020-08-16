@@ -11,7 +11,7 @@
                         |      |    `'  '-'  '   `'  '-'  '|  |   |  |
                         `------'      `-----'      `-----' `--'   `--'
 ```
-> [DataCon2019大数据安全分析大赛](https://www.butian.net/datacon)方向二（恶意代码检测）冠军方案:rose::rose:，详细思路分享见[知乎](https://zhuanlan.zhihu.com/p/64252076)，[DataCon2020大数据安全分析大赛](https://datacon.qianxin.com/#integral)方向五（恶意代码分析）季军方案，详细思路分享见[知乎](https://zhuanlan.zhihu.com/p/64252076)，由于比赛时间仓促代码写得比较混乱，还请各位读者多多见谅！
+> [DataCon2019大数据安全分析大赛](https://www.butian.net/datacon)方向二（恶意代码检测）冠军方案:rose::rose:，详细思路分享见[知乎](https://zhuanlan.zhihu.com/p/64252076)，[DataCon2020大数据安全分析大赛](https://datacon.qianxin.com/#integral)方向五（恶意代码分析）季军方案，详细思路分享见[知乎](https://zhuanlan.zhihu.com/p/185715807)，由于比赛时间仓促代码写得比较混乱，还请各位读者多多见谅！
 
 ### DataCon2019综合积分榜排名（部分）
 
