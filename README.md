@@ -54,3 +54,5 @@
 - [[yield_end_result.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/yield_end_result.py)]: 生成最终提交的结果
 - [[yield_features.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/yield_features.py)]: 由原始字符串生成特征矩阵
 - [[yield_train_model.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/yield_train_model.py)]: 生成训练模型
+- [[plot.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/plot.py)]: 绘图模块
+- [[t_sne.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/t_sne.py)]: 降维可视化模块
