@@ -1,6 +1,7 @@
 from sklearn import metrics
 import matplotlib.pyplot as plt
 
+__author__ = "yhangf"
 
 def plot_roc_curve(test_label, y_pred, *, model_name, save=True):
     """Calculate the AUC value of the model
