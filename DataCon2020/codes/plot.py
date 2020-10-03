@@ -1,4 +1,5 @@
 from sklearn import metrics
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 __author__ = "yhangf"
@@ -70,9 +71,9 @@ def plot_multiple_roc_curve(
     :@param col: control the number of subgraphs.
     :type col: int.
     :@param width: the total width of the canvas.
-    :type width: int.
+    :type width: float.
     :@param height: the total height of the canvas.
-    :type height: int.
+    :type height: float.
     :@param save: control the saving of images.
     :type save: bool.
     """
@@ -123,3 +124,48 @@ def plot_multiple_roc_curve(
 
         if save:
             fig.savefig("multiple_auc_curve.pdf")
+
+def plot_train_test_data_pdf(train, 
+                             test, 
+                             rows, 
+                             cols,
+                             *,
+                             width=16, 
+                             height=8, 
+                             save=False
+):
+    """Draw the distribution of corresponding features of training set 
+       and test set.
+       :@param train: training set.
+       :type train: pd.DataFrame.
+       :@param test: testing set.
+       :type test: pd.DataFrame.
+       :@param rows: controls the number of subgraphs in the row direction.
+       :type rows: int.
+       :@param cols: controls the number of subgraphs in the col direction.
+       :type cols: int.
+       :@param width: the total width of the canvas.
+       :type width: float.
+       :@param height: the total height of the canvas.
+       :type height: float.
+       :@param save: control the saving of images.
+       :type save: bool.
+    """
+
+    font = {"size": 10, 
+            "family" : "serif"}
+    legend_font = {"family" : "serif",
+                   "size": 6}
+    with plt.style.context("bmh"):
+        plt.figure(figsize=(width, height))
+        for i, col in enumerate(train.columns):
+            ax = plt.subplot(rows, cols, i + 1)
+            sns.kdeplot(train[col], n_levels=2, color="darkred", shade=True, ax=ax)
+            sns.kdeplot(test[col], n_levels=2, color="steelblue", shade=True, ax=ax)
+            ax.set_xlabel(col, fontdict=font)
+            ax.set_ylabel("Frequency", fontdict=font)
+            ax.legend(["train","test"], loc="best", prop=legend_font)
+        plt.tight_layout()
+        
+    if save:
+        plt.savefig("pdf_curve.pdf")
