@@ -1,4 +1,5 @@
 from sklearn.manifold import TSNE
+from matplotlib.pyplot as plt
 
 def plot_t_sne(train_tfidf_features):
     X_tsne = TSNE(n_components=2, perplexity=300, random_state=42).fit_transform(train_tfidf_features)
