@@ -57,3 +57,4 @@
 - [[plot.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/plot.py)]: 绘图模块
 - [[t_sne.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/t_sne.py)]: 降维可视化模块
 - [[lgb_cv.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/lgb_cv.py)]: LightGBM模型+交叉验证
+- [[xgb_bagging.py](https://github.com/yhangf/DataCon/blob/master/DataCon2020/codes/xgb_bagging.py)]: XGBoost模型+Bagging
