@@ -1,8 +1,9 @@
+import numpy as np
 from xgboost import XGBClassifier
 
 # 适用于训练数据较少，且预测值抖动现象明显的场合
 result = []
-for i in range(10):
+for i in np.random.randint(0xFFFFF, size=10):
     train_data, test_data, train_label, test_label = train_test_split(train_tfidf_features, 
                                                                       labels, 
                                                                       test_size=0.2, 
