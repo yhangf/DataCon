@@ -157,13 +157,13 @@ def plot_train_test_data_pdf(train,
     legend_font = {"family" : "serif",
                    "size": 6}
     with plt.style.context("bmh"):
-        plt.figure(figsize=(width, height))
+        plt.figure(figsize=(width, height), dpi=400)
         for i, col in enumerate(train.columns):
             ax = plt.subplot(rows, cols, i + 1)
             sns.kdeplot(train[col], n_levels=2, color="darkred", shade=True, ax=ax)
             sns.kdeplot(test[col], n_levels=2, color="steelblue", shade=True, ax=ax)
             ax.set_xlabel(col, fontdict=font)
-            ax.set_ylabel("Frequency", fontdict=font)
+            ax.set_ylabel("Density", fontdict=font)
             ax.legend(["train","test"], loc="best", prop=legend_font)
         plt.tight_layout()
         
